@@ -1,0 +1,21 @@
+{
+  "name": "projeto-teste",
+  "version": "1.0.0",
+  "description": "A test project for testing my skills",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Victor",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
