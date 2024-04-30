@@ -1,17 +1,30 @@
 {
   "name": "projeto-teste",
   "version": "1.0.0",
-  "description": "A test project for testing my skills",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
   },
-  "author": "Pedro Victor",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "fastify": "^4.26.2",
-    "pino-pretty": "^11.0.0"
+    "@prisma/client": "^5.13.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pino-pretty": "^11.0.0",
+    "prisma": "^5.13.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.5"
   }
 }
